@@ -1,0 +1,38 @@
+.admin {
+  h1 {
+    margin: 2rem auto;
+    width: 100%;
+    text-align: center;
+  }
+  form {
+    width: 60%;
+    margin: 1rem auto;
+    .input-group {
+      display: flex;
+      flex-direction: row;
+      align-items: start;
+      label {
+        width: 8rem;
+        font-weight: bold;
+      }
+      .input {
+        margin: 0rem 0.5rem;
+      }
+      textarea {
+        width: 100%;
+        min-height: 10rem;
+      }
+    }
+    .submit-btn {
+      width: 5rem;
+      color: #fff;
+      border: 1px solid rgb(19, 135, 245);
+      background-color: rgb(19, 135, 245);
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 0.5rem;
+      margin: 2rem auto;
+    }
+  }
+}
